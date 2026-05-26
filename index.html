@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Virtual Assistant portfolio — admin support, content, video editing, and brand collaborations." />
+  <title>Rhynier Nacua | Virtual Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Fallback if stylesheet path breaks in preview */
+    body { margin: 0; background: #09090b; color: #fafaf9; font-family: system-ui, sans-serif; }
+    html[data-theme="light"] body { background: #f7f6f3; color: #1a1917; }
+    main section { display: block; }
+  </style>
+</head>
+<body>
+  <p class="demo-banner" role="status">Sample content throughout — scroll down or use the nav. Replace text &amp; images in <code>index.html</code>.</p>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="header">
+    <nav class="nav" aria-label="Primary">
+      <a href="#hero" class="nav-logo">RN</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about" data-nav>About</a></li>
+        <li><a href="#achievements" data-nav>Achievements</a></li>
+        <li><a href="#edits" data-nav>Edits</a></li>
+        <li><a href="#promotions" data-nav>Promotions</a></li>
+        <li><a href="#collaborations" data-nav>Collaborations</a></li>
+        <li><a href="#contact" class="nav-cta" data-nav>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">  
+    <!-- MAIN FRAME: photo, info, about, and section previews -->
+    <section class="main-frame" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-inner">
+        <div class="hero-visual">
+          <div class="hero-frame">
+            <img
+              src="/assets/images/mainpic.jpg"
+              alt="Alex Morgan — Virtual Assistant"
+              class="hero-photo"
+              width="480"
+              height="600"
+            />
+            <div class="hero-badge" aria-hidden="true">Available for hire</div>
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow">Virtual Assistant</p>
+          <h1 id="hero-heading" class="hero-title">
+            <span class="hero-name">Rhynier M. Nacua</span>
+          </h1>
+          <p class="hero-tagline">
+            I help brands and creators stay organized, visible, and on schedule — from inbox to final cut.
+          </p>
+
+          <dl class="hero-info">
+            <div class="hero-info-item">
+              <dt>Location</dt>
+              <dd>Cebu City, Cebu, Philippines</dd>
+            </div>
+            <div class="hero-info-item">
+              <dt>Timezone</dt>
+              <dd>GMT+8 (PHT)</dd>
+            </div>
+            <div class="hero-info-item">
+              <dt>Focus</dt>
+              <dd>Promotions · Content · Video · Edits · Assisting</dd>
+            </div>
+            <div class="hero-info-item">
+              <dt>Response</dt>
+              <dd>Within 24 hours</dd>
+            </div>
+          </dl>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary" data-magnetic>Work with me</a>
+            <a href="assets/resume.pdf" class="btn btn-ghost" download>Download CV</a>
+          </div>
+
+          <ul class="hero-social" aria-label="Social links">
+            <li><a href="https://www.facebook.com/nacua.rhynier" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+            <li><a href="https://www.instagram.com/rhynrnc/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="rhyniermolinanacua@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- About me — on the main frame (edit this block) -->
+      <div class="container main-frame-block" id="about">
+        <header class="section-header">
+          <p class="eyebrow">About me</p>
+          <h2 id="about-heading" class="section-title">Calm systems.<br />Clear communication.</h2>
+        </header>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Hi — I'm <strong>Rhynier Nacua</strong>, a versatile visual creator with
+              <strong>3+ years</strong> experience of providing content that involves, promotion, and collaborating with content teams. I handle the details behind the scenes so you can focus on what you do best.
+            </p>
+            <p>
+              My day-to-day includes calendar management, client follow-ups, light graphic support, short-form video edits, and campaign coordination. I work async-first and document everything so nothing gets lost.
+            </p>
+            <p>
+              When I'm not in your inbox, I'm learning new editing tools and refining workflows — because smooth operations should feel effortless on your end.
+            </p>
+          </div>
+          <aside class="about-aside">
+            <h3 class="about-aside-title">Core skills</h3>
+            <ul class="skill-tags" role="list">
+              <li>Email & calendar management</li>
+              <li>Promotions & brand collaborations</li>
+              <li>Canva & brand assets</li>
+              <li>CapCut / video edits</li>
+              <li>Social scheduling</li>
+              <li>Research & reporting</li>
+            </ul>
+            <h3 class="about-aside-title">Tools I use</h3>
+            <p class="tools-list">Notion · Google Workspace · Trello · Slack · Canva · CapCut · Later · Zoom</p>
+          </aside>
+        </div>
+      </div>
+
+      <!-- Quick stats on main frame -->
+      <div class="container">
+        <ul class="stats-row main-frame-stats" aria-label="Quick stats">
+          <li><span class="stat-num" data-count="3">3+</span><span class="stat-label">Years experience</span></li>
+          <li><span class="stat-num" data-count="25">15+</span><span class="stat-label">Successful collaborations</span></li>
+          <li><span class="stat-num" data-count="120">120+</span><span class="stat-label">Videos made</span></li>
+          <li><span class="stat-num" data-count="98">98</span><span class="stat-label">% satisfaction</span></li>
+        </ul>
+      </div>
+
+      <p class="main-frame-more container">More samples below — achievements, video edits, promotions &amp; collaborations</p>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section section-alt" id="achievements" aria-labelledby="achievements-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Achievements</p>
+          <h2 id="achievements-heading" class="section-title">Milestones that matter</h2>
+          <p class="section-desc">Sample achievement cards — swap images, dates, and copy with yours.</p>
+        </header>
+
+        <div class="achievements-grid">
+          <article class="achievement-card" tabindex="0">
+            <div class="achievement-media">
+              <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=400&h=280&fit=crop&q=80" alt="Team celebrating a client win" loading="lazy" />
+            </div>
+            <div class="achievement-body">
+              <time datetime="2025-03">Mar 2025</time>
+              <h3>Top Virtual Assistant — Client Choice Award</h3>
+              <p>Recognized by a retainer client for 12 months of 99% on-time delivery and zero missed deadlines.</p>
+            </div>
+          </article>
+
+          <article class="achievement-card" tabindex="0">
+            <div class="achievement-media">
+              <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=400&h=280&fit=crop&q=80" alt="Video editing workspace" loading="lazy" />
+            </div>
+            <div class="achievement-body">
+              <time datetime="2024-11">Nov 2024</time>
+              <h3>50+ Video Projects Delivered</h3>
+              <p>Short-form reels and YouTube snippets for lifestyle and coaching brands across three niches.</p>
+            </div>
+          </article>
+
+          <article class="achievement-card" tabindex="0">
+            <div class="achievement-media">
+              <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=280&fit=crop&q=80" alt="Laptop with organized workspace" loading="lazy" />
+            </div>
+            <div class="achievement-body">
+              <time datetime="2024-06">Jun 2024</time>
+              <h3>Notion Certified — Workspace Builder</h3>
+              <p>Built reusable client dashboards that cut weekly reporting time by 40%.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO EDITS -->
+    <section class="section" id="edits" aria-labelledby="edits-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Video editing</p>
+          <h2 id="edits-heading" class="section-title">Selected edits</h2>
+          <p class="section-desc">Click a card to preview. Link your files in <code>assets/videos/</code> or external URLs.</p>
+        </header>
+
+        <div class="filter-bar" role="tablist" aria-label="Filter video edits">
+          <button type="button" class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button type="button" class="filter-btn" data-filter="reels" role="tab" aria-selected="false">Reels</button>
+          <button type="button" class="filter-btn" data-filter="youtube" role="tab" aria-selected="false">YouTube</button>
+          <button type="button" class="filter-btn" data-filter="ads" role="tab" aria-selected="false">Ads</button>
+        </div>
+
+        <div class="edits-grid">
+          <article class="edit-card" data-category="reels" data-video="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" data-title="Lifestyle reel — Summer collection">
+            <div class="edit-thumb">
+              <img src="https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=360&h=640&fit=crop&q=80" alt="Lifestyle reel thumbnail" loading="lazy" />
+              <span class="edit-play" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </span>
+            </div>
+            <h3>Lifestyle reel — Summer collection</h3>
+            <p>15s · CapCut · Brand X</p>
+          </article>
+
+          <article class="edit-card" data-category="youtube" data-video="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" data-title="Podcast highlight — Episode 12">
+            <div class="edit-thumb">
+              <img src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=640&h=360&fit=crop&q=80" alt="Podcast highlight thumbnail" loading="lazy" />
+              <span class="edit-play" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </span>
+            </div>
+            <h3>Podcast highlight — Episode 12</h3>
+            <p>60s · Premiere · Creator Y</p>
+          </article>
+
+          <article class="edit-card" data-category="ads" data-video="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" data-title="Product ad — Skincare launch">
+            <div class="edit-thumb">
+              <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?w=360&h=640&fit=crop&q=80" alt="Skincare ad thumbnail" loading="lazy" />
+              <span class="edit-play" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </span>
+            </div>
+            <h3>Product ad — Skincare launch</h3>
+            <p>30s · CapCut · Brand Z</p>
+          </article>
+
+          <article class="edit-card" data-category="reels" data-video="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" data-title="Fitness tips — 3-hook format">
+            <div class="edit-thumb">
+              <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=360&h=640&fit=crop&q=80" alt="Fitness reel thumbnail" loading="lazy" />
+              <span class="edit-play" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </span>
+            </div>
+            <h3>Fitness tips — 3-hook format</h3>
+            <p>20s · CapCut · Coach A</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROMOTIONS -->
+    <section class="section section-alt" id="promotions" aria-labelledby="promotions-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Promotions</p>
+          <h2 id="promotions-heading" class="section-title">Campaigns & launches</h2>
+          <p class="section-desc">Social promos, email pushes, and launch support you've led or assisted.</p>
+        </header>
+
+        <div class="promo-slider">
+          <div class="promo-track" id="promo-track">
+            <article class="promo-card">
+              <a href="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=900&h=1125&fit=crop&q=80" class="promo-link" target="_blank" rel="noopener">
+                <img src="https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=500&h=625&fit=crop&q=80" alt="Spring sale carousel — 5 slides" loading="lazy" />
+              </a>
+              <div class="promo-meta">
+                <h3>Spring sale carousel</h3>
+                <p>Instagram · 5-slide set · +22% engagement vs. prior campaign</p>
+              </div>
+            </article>
+
+            <article class="promo-card">
+              <a href="https://images.unsplash.com/photo-1552664730-d307ca884978?w=900&h=1125&fit=crop&q=80" class="promo-link" target="_blank" rel="noopener">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=625&fit=crop&q=80" alt="Webinar launch — email + stories" loading="lazy" />
+              </a>
+              <div class="promo-meta">
+                <h3>Webinar launch kit</h3>
+                <p>Email sequence · Stories · 180 sign-ups in 7 days</p>
+              </div>
+            </article>
+
+            <article class="promo-card">
+              <a href="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900&h=1125&fit=crop&q=80" class="promo-link" target="_blank" rel="noopener">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=625&fit=crop&q=80" alt="Product drop — countdown stories" loading="lazy" />
+              </a>
+              <div class="promo-meta">
+                <h3>Product drop countdown</h3>
+                <p>Stories · Landing page copy · Sold out in 48h</p>
+              </div>
+            </article>
+
+            <article class="promo-card">
+              <a href="https://example.com/campaign" class="promo-link" target="_blank" rel="noopener">
+                <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?w=500&h=625&fit=crop&q=80" alt="Brand campaign mockup" loading="lazy" />
+              </a>
+              <div class="promo-meta">
+                <h3>Brand awareness campaign</h3>
+                <p>Sample external link — replace <code>href</code> with your live URL</p>
+              </div>
+            </article>
+          </div>
+          <div class="promo-controls">
+            <button type="button" class="promo-btn promo-prev" aria-label="Previous promotion">←</button>
+            <button type="button" class="promo-btn promo-next" aria-label="Next promotion">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLLABORATIONS -->
+    <section class="section" id="collaborations" aria-labelledby="collab-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Collaborations</p>
+          <h2 id="collab-heading" class="section-title">Brands & creators I've worked with</h2>
+        </header>
+
+        <div class="collab-grid">
+          <article class="collab-card">
+            <div class="collab-logo-wrap">
+              <img src="https://placehold.co/140x48/3d5a4c/ffffff?text=LUMEA" alt="Lumea Skincare logo" loading="lazy" />
+            </div>
+            <h3>Lumea Skincare</h3>
+            <p>6-month retainer — inbox, content calendar, weekly reels.</p>
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="collab-link">Visit site →</a>
+          </article>
+
+          <article class="collab-card">
+            <div class="collab-logo-wrap">
+              <img src="https://placehold.co/140x48/5c5a56/ffffff?text=Coach+Jay" alt="Coach Jay logo" loading="lazy" />
+            </div>
+            <h3>Coach Jay Creates</h3>
+            <p>YouTube edits + thumbnail support for 8-episode series.</p>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="collab-link">Channel →</a>
+          </article>
+
+          <article class="collab-card">
+            <div class="collab-logo-wrap">
+              <img src="https://placehold.co/140x48/8b7355/ffffff?text=Northline" alt="Northline Agency logo" loading="lazy" />
+            </div>
+            <h3>Northline Agency</h3>
+            <p>White-label VA for three agency clients — CRM & reporting.</p>
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="collab-link">Visit site →</a>
+          </article>
+
+          <article class="collab-card">
+            <div class="collab-logo-wrap">
+              <img src="https://placehold.co/140x48/6b6862/ffffff?text=Studio+M" alt="Studio M logo" loading="lazy" />
+            </div>
+            <h3>Studio M Wellness</h3>
+            <p>Launch week — emails, stories, webinar tech support.</p>
+            <a href="https://example.com" target="_blank" rel="noopener noreferrer" class="collab-link">Visit site →</a>
+          </article>
+        </div>
+
+        <blockquote class="testimonial">
+          <p>"Alex is the calm in our chaos — proactive, detail-oriented, and always one step ahead. Our content pipeline has never been smoother."</p>
+          <footer>
+            <cite>Sarah Chen</cite>
+            <span>Founder, Lumea Skincare</span>
+          </footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-contact" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <header class="section-header">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-heading" class="section-title">Let's work together</h2>
+          <p class="section-desc">Share your project details — I'll reply within one business day.</p>
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-details">
+            <p><strong>Email</strong><br /><a href="mailto:alex.morgan@email.com">alex.morgan@email.com</a></p>
+            <p><strong>Phone / WhatsApp</strong><br /><a href="tel:+639171234567">+63 917 123 4567</a></p>
+            <p><strong>Availability</strong><br />Mon–Fri · 9am–6pm PHT</p>
+          </div>
+
+          <form class="contact-form" id="contact-form" action="#" method="post">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Jane Smith" required autocomplete="name" />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="jane@company.com" required autocomplete="email" />
+            </label>
+            <label>
+              <span>What do you need help with?</span>
+              <select name="service">
+                <option value="va">General VA support</option>
+                <option value="video">Video editing</option>
+                <option value="promo">Promotions / campaigns</option>
+                <option value="other">Other</option>
+              </select>
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="4" placeholder="Tell me about your project…" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary btn-full" data-magnetic>Send message</button>
+            <p class="form-note">Form is front-end only. Connect to Formspree, Netlify Forms, or your email service.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Alex Morgan (demo). All rights reserved.</p>
+      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle light mode">
+        <span class="theme-icon-light" aria-hidden="true">☀</span>
+        <span class="theme-icon-dark" aria-hidden="true">☾</span>
+      </button>
+    </div>
+  </footer>
+
+  <!-- Video modal -->
+  <dialog class="video-modal" id="video-modal" aria-labelledby="video-modal-title">
+    <div class="video-modal-inner">
+      <button type="button" class="video-modal-close" aria-label="Close video">×</button>
+      <h2 id="video-modal-title" class="visually-hidden">Video preview</h2>
+      <video id="modal-video" controls playsinline preload="metadata">
+        <source src="" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <p class="video-modal-caption" id="video-modal-caption"></p>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
