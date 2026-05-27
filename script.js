@@ -197,21 +197,6 @@
     modalVideo?.pause();
   });
 
-  /* ----- Promo slider ----- */
-  const promoTrack = document.getElementById("promo-track");
-  const promoPrev = document.querySelector(".promo-prev");
-  const promoNext = document.querySelector(".promo-next");
-
-  function scrollPromo(direction) {
-    if (!promoTrack) return;
-    const card = promoTrack.querySelector(".promo-card");
-    const amount = card ? card.offsetWidth + 20 : 340;
-    promoTrack.scrollBy({ left: direction * amount, behavior: "smooth" });
-  }
-
-  promoPrev?.addEventListener("click", () => scrollPromo(-1));
-  promoNext?.addEventListener("click", () => scrollPromo(1));
-
   /* ----- Subtle magnetic buttons ----- */
   const magneticBtns = document.querySelectorAll("[data-magnetic]");
 
