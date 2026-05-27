@@ -725,9 +725,6 @@ code {
   margin-bottom: 0.85rem;
 }
 
-.edit-card[data-category="youtube"] .edit-thumb {
-  aspect-ratio: 16 / 9;
-}
 
 .edit-thumb img {
   width: 100%;

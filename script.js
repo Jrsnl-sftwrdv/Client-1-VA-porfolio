@@ -10,6 +10,7 @@
   const videoModal = document.getElementById("video-modal");
   const modalVideo = document.getElementById("modal-video");
   const modalCaption = document.getElementById("video-modal-caption");
+   const sections = [...document.querySelectorAll("section[id]")];
   const contactForm = document.getElementById("contact-form");
 
   /* ----- Year ----- */
@@ -67,7 +68,7 @@
   });
 
   /* ----- Active nav section ----- */
-  const sections = [...document.querySelectorAll("section[id]")];
+
 
   function updateActiveNav() {
     const scrollPos = window.scrollY + 120;
